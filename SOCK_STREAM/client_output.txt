@@ -1,0 +1,22 @@
+-bash-2.05b$ hostname
+client.2nodessockexp.usc558l.isi.deterlab.net
+-bash-2.05b$ ping server
+PING server-lan0 (10.1.1.3): 56 data bytes
+64 bytes from 10.1.1.3: icmp_seq=0 ttl=64 time=24.008 ms
+^C
+--- server-lan0 ping statistics ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max/stddev = 24.008/24.008/24.008/0.000 ms
+-bash-2.05b$ ./client server 123456
+Connected
+Please enter the message: Hello Aniket Zamwar
+I got your message
+-bash-2.05b$ ./client server 123456
+Connected
+Please enter the message: How are you ?
+I got your message
+-bash-2.05b$ ./client server 123456
+Connected
+Please enter the message: Bbye Aniket Zamwar!!
+I got your message
+-bash-2.05b$ 

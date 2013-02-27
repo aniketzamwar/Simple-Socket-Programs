@@ -1,0 +1,17 @@
+-bash-2.05b$ hostname
+server.2nodessockexp.usc558l.isi.deterlab.net
+-bash-2.05b$ ./server 123455
+Waiting to accept connection
+Connection Accepted from 10.1.1.2
+Waiting to accept connection
+Received message: Hi Aniket Zamwar
+
+Connection Accepted from 10.1.1.2
+Waiting to accept connection
+Received message: Have a Good Day!!
+
+^COUCH, did you hit Ctrl-C?
+Do you really want to quit? [y/n] y
+Control-C Pressed, Exiting Program.
+Thank you for using it.
+-bash-2.05b$ 
